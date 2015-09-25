@@ -1,6 +1,6 @@
 HeatmapGenerator <- function() {
   
-  setwd("~/Documents/R_dir")
+  setwd("~/R_dir")
   infile <- "EXAMPLE.txt"
   outfile <- "EXAMPLE_output.tiff"
   genexp <- read.table(infile, header = TRUE, sep="", stringsAsFactors=FALSE)
